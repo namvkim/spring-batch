@@ -5,17 +5,17 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+//import javax.persistence.Entity;
+//import javax.persistence.Id;
 import java.io.Serializable;
 
 @Builder
-@Entity
+//@Entity
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 public class Product implements Serializable {
-    @Id
+//    @Id
     private Long id;
     private String name;
     private Long quantity;
